@@ -1,0 +1,30 @@
+.card-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .card {
+    max-width: 345px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .MuiCardContent-root {
+    padding: 20px;
+  }
+  
+  .card .MuiCardActions-root {
+    padding: 16px;
+    justify-content: center;
+  }
+  
+  .card .MuiTypography-h5 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card .MuiTypography-body2 {
+    color: #555;
+  }
+  

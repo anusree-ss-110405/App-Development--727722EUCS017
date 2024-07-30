@@ -1,0 +1,6 @@
+#card{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    justify-content: center;
+}

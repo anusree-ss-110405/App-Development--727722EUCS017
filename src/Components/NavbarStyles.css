@@ -1,0 +1,39 @@
+.div1 {
+  background-color: #333333;
+  overflow: hidden;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.navbar li a:hover {
+  background-color: #575757;
+}
+.loginicon {
+  margin-left: auto;
+}
+
+.loginicon a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.navbar img {
+  height: 40px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin: 5px 15px; /* Space around the image */
+  border-radius: 50%;
+}
