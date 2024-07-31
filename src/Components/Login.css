@@ -1,7 +1,7 @@
-/* Container for the entire login/signup section */
+
 .lognsignup {
   width: 100%;
-  height: 85vh; /* Full viewport height for a consistent layout */
+  height: 85vh; 
   background: #ced4da; /* Light, neutral background color */
   padding-top: 50px;
   display: flex;

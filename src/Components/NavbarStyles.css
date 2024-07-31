@@ -32,7 +32,7 @@
   font-weight: bold;
 }
 .navbar img {
-  height: 40px; /* Adjust the height as needed */
+  height: 40px; 
   width: auto; /* Maintain aspect ratio */
   margin: 5px 15px; /* Space around the image */
   border-radius: 50%;
