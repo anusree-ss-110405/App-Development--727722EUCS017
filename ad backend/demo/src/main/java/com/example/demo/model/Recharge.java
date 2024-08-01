@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
+import java.time.LocalTime;
 
 @Entity
 @Data
@@ -13,8 +14,8 @@ public class Recharge {
     @Id
     @GeneratedValue (strategy=GenerationType.IDENTITY)
     private int rechargeid;
-    public Date date;
-    public String plan;
-    public int Amount;
-    public int rechargetime;
+    private Date date;
+    private String plan;
+    private long Amount;
+    private LocalTime rechargetime;
 }

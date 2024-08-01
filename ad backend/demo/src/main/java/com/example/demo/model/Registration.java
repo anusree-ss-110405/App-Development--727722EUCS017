@@ -14,13 +14,13 @@ public class Registration{
     private int userid;
     private String UserName;
     private String Email;
-    private String MobileNumber;
+    private long MobileNumber;
     private String Password;
     private String SecurityAnswer;
     private String Address;
     private String city;
     private String state;
-    private String postalcode;
+    private long postalcode;
     private String country;
-    private String referralcode;
+    private long referralcode;
 }
