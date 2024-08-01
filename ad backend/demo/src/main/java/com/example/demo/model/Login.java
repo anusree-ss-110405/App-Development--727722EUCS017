@@ -13,4 +13,5 @@ public class Login {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int userid;
     private long MobileNumber;
+    private boolean status;
 }
