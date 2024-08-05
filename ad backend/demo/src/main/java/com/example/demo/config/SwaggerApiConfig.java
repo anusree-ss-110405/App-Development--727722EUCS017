@@ -1,4 +1,4 @@
-package com.rechargezone.rechargezone.config;
+package com.example.demo.config;
 
 // import org.hibernate.mapping.List;
 import org.springframework.context.annotation.Bean;
