@@ -5,12 +5,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import Grid from '@mui/material/Grid';
 export default function Devices() {
   return (
     <>
+    <div style={{marginTop:'20px'}}></div>
     <div style={{display:'flex',justifyContent:'space-between'}}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid container spacing={3} justifyContent="center">
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -30,7 +33,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -50,7 +55,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -70,10 +77,14 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    </Grid>
         </div>
     <br></br>
     <div style={{display:'flex',justifyContent:'space-between'}}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid container spacing={3} justifyContent="center">
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -93,6 +104,8 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -113,6 +126,8 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -133,11 +148,16 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    </Grid>
         </div>
     <br></br>
     <br></br>
     <div style={{display:'flex',justifyContent:'space-between'}}>
-    <Card sx={{ maxWidth: 345 }}>
+    
+    <Grid container spacing={3} justifyContent="center">
+    <Grid item xs={12} sm={6} md={4}>
+      <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -157,7 +177,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto'}}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -177,6 +199,8 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -197,11 +221,15 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    </Grid>
     </div>
     <br></br>
     <br></br>
     <div style={{display:'flex',justifyContent:'space-between'}}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid container spacing={3} justifyContent="center">
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -221,7 +249,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345,margin:'auto'  }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -241,7 +271,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345,margin:'auto'  }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -261,11 +293,15 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    </Grid>
     </div>
     <br></br>
     <br></br>
     <div style={{display:'flex',justifyContent:'space-between'}}>
-    <Card sx={{ maxWidth: 345 }}>
+    <Grid container spacing={3} justifyContent="center">
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345,margin:'auto'  }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -285,7 +321,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+</Grid>
+<Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345,margin:'auto'  }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -305,7 +343,9 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 345 }}>
+    </Grid>
+    <Grid item xs={12} sm={6} md={4}>
+    <Card sx={{ maxWidth: 345, margin:'auto' }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -325,6 +365,8 @@ export default function Devices() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </Grid>
+    </Grid>
     </div>
         </>
   );

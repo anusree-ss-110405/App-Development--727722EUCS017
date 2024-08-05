@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import './../Components/image.css';
+import './Jio.css';
 
 export default function Jio() {
   return (
