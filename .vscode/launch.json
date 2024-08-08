@@ -2,11 +2,30 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Spring Boot-DemoApplication<demo>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.example.demo.DemoApplication",
             "projectName": "demo",
+=======
+            "name": "Spring Boot-RechargezoneApplication<rechargezone>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rechargezone.rechargezone.RechargezoneApplication",
+            "projectName": "rechargezone",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=43521 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=rechargezone"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RechargezoneApplication<com.rechargezone-rechargezone>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rechargezone.rechargezone.RechargezoneApplication",
+            "projectName": "com.rechargezone-rechargezone",
+>>>>>>> 83932bd (recharge backend)
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
